@@ -1,0 +1,140 @@
+i {
+  color: red;
+}
+
+.word {
+  box-shadow: -3px -3px 7px #000000;
+  border-radius: 30px;
+  width: 300px;
+  margin-left: 600px;
+}
+
+#wh {
+  background-image: url(warhammer-40k-IX.png);
+}
+
+#Me {
+  position: absolute;
+  bottom: 420px;
+  right: 200px;
+  opacity: 0.1;
+  padding: 50px;
+}
+
+#Me:hover {
+  opacity: 1;
+}
+
+.photo {
+  float: right;
+  bottom: 5000px;
+}
+
+.interest {
+  background-color: #E4E4E4;
+  border: 2px solid#000000;
+  color: red;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  clear: both;
+}
+
+.interest:hover {
+  border: 4px solid#000000;
+}
+
+.hoVVer {
+  background-image: url(dgy_cm.jpg);
+  width: 200px;
+  height: 200px;
+}
+
+.hoVVer:hover {
+  background-image: url(dgy.an.jpg);
+  width: 380px;
+  height: 380px;
+}
+
+#secret-block {
+  display: block;
+  color: rgba(0, 0, 0, 0);
+  padding: 100px;
+  float: right;
+}
+
+#secret-block:hover {
+  display: inline-block;
+  color: rgba(255, 100, 100, 1);
+}
+
+.transparent-text {
+  margin: 20px;
+  color: rgba(255, 90, 100, 0.1);
+}
+
+#ch3-4{
+  display: block;
+}
+
+.top-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: red;
+}
+
+.middle-container {
+  width: 200px;
+  height: 200px;
+  left: 210px;
+  bottom: 200px;
+  position: relative;
+  background-color: blue;
+}
+
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  left: 410px;
+  bottom: 400px;
+  position: relative;
+  background-color: green;
+}
+
+.upper-container {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: red;
+  left: 408px;
+  top: 3700px;
+}
+
+.central-container {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: blue;
+  left: 208px;
+  top: 3500px;
+}
+
+.lower-container {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: green;
+  top: 3300px;
+}
+
+.challenge {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 3300px;
+  margin-left: 650px;
+}
